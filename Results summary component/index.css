@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+.container{
+    width: 40%;
+    height: 60%;
+    display: flex; 
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.result-container {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background:linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result{
+    font-family: Hanken Grotesk;
+    display: inline-block;
+    padding-top: 30px;
+    color: #D1C8FF;
+    margin-bottom: 30px;
+
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(circle, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+#number{
+    display: block;
+    text-align: center;
+    font-family:Hanken Grotesk;
+    font-weight: 800;
+    font-size: 50px;
+    color: #FFF;
+}
+
+#of-100{
+    display: block;
+    font-family: Hanken Grotesk;
+    color: #D1C8FF;
+}
+
+#great{
+    font-family:Hanken Grotesk;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+#description{
+    font-family:Hanken Grotesk;
+    font-size: 12px;
+    font-weight: 100;
+    color:#FFF;
+    text-align: center;
+    padding:10px 50px 0 50px;
+}
+
+.summary-container{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #fff; 
+    
+}
+
+#summary{
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    font-size: 17px;
+    padding-top:20px ;
+    padding-left: 30px;
+    display: block;
+}
+
+.container-statistic{
+    width: 75%;
+    margin: 30px auto 0 auto;
+}
+
+.statistic{
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #303B59;
+    color: #FFF;
+    font-family: Hanken Grotesk;
+    font-size: 12px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
