@@ -26,6 +26,7 @@ body{
     display: flex; 
     border-radius: 20px;
     background-color: #FFF;
+    flex-direction: row;
 }
 
 .result-container {
@@ -112,13 +113,59 @@ body{
     margin: 30px auto 0 auto;
 }
 
-.statistic{
+.statistic-1,
+.statistic-2,
+.statistic-3,
+.statistic-4{
     height: 35px;
     margin-bottom: 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    font-family: Hanken Grotesk;
+    font-weight: 800;
+    font-size: 15px;
 }
+
+.statistic-1{
+    background-color: #fff6f5;
+    color: #EF6E6F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistic-2{
+    background-color: #fffbf2;
+    color: #F5BD58;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistic-3{
+    background-color: #f2fbfa;
+    color: #27B08E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistic-4{
+    background-color: #f3f3fd;
+    color: #1B269D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 7px;
+}
+
+.data{
+    margin-right: 7px;
+}
+
 
 .button{
     margin-top: 30px;
@@ -134,3 +181,18 @@ body{
 .button:hover{
     cursor: pointer;
 }
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Mudando para uma disposição em coluna */
+    }
+  
+    .result-container,
+    .summary-container {
+      width: 100%; /* Garantindo que ocupem toda a largura */
+    }
+ 
+  }
